@@ -8,6 +8,7 @@
 !*.ps1
 !requirements.txt
 
+
 # Ensure that all directories and subdirectories are unignored
 !*/
 
@@ -16,6 +17,8 @@
 
 # Explicitly allow .md files in all subdirectories 
 !**/*.md
+
+!dailyMutiTimesURLPlayer/config.json
 
 # Ignore unwanted files or directories explicitly
 __pycache__/
